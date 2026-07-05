@@ -1,24 +1,24 @@
 variable "iname" {
-description = "instance name"
-type = string
+  description = "instance name"
+  type        = string
 }
 
 variable "ami_id" {
-type = string
+  type = string
 }
 
 variable "itype" {
-type = string
+  type = string
 }
 
 variable "key_pair" {
-type = string
+  type = string
 }
 
 variable "az" {
-type = string
+  type = string
 }
 
 variable "ebs_volume" {
-type = number
+  type = number
 }
