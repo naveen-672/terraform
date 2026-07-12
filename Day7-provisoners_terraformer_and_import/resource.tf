@@ -16,7 +16,7 @@ resource "aws_instance" "dev" {
     command = "touch ./hello.txt"
   }
 
-  #After the instance is created, Terraform sees the remote-exec provisioner.Terraform uses the connection
+  #After the instance is created, terraform sees the remote-exec provisioner.Terraform uses the connection
   #block to establish an SSH connection from your local machine to the EC2 instance.
   connection {
     type        = "ssh"
