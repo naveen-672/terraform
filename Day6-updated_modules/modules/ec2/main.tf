@@ -4,7 +4,7 @@ resource "aws_instance" "myinstance" {
   }
   ami           = var.ami_id
   instance_type = var.itype
-  key_name      = var.iname
+  key_name      = var.key_name
   root_block_device {
     volume_size = var.volume_size
   }
